@@ -212,7 +212,7 @@
                         if (currentPlayer === 'O') {
                             showModal('恭喜，你贏了！有surprise!!~~');
                         } else {
-                            showModal('X 贏了！');
+                            showModal('你輸嚕QQ ！但還是有surprise!!~~');
                         }
                     }, 1000);
                     return;
@@ -222,7 +222,7 @@
             if (!board.includes('')) {
                 gameActive = false;
                 setTimeout(() => {
-                    showModal('平局！');
+                    showModal('平局！還是有surprise!!~~');
                 }, 1000);
             }
         }
