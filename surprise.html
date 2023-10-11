@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>我的告白</title>
+  <style>
+    body {
+      background-color: #fde6e3;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    #container {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+    }
+
+    h1 {
+      color: #ff5e62;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.6;
+      color: #333;
+    }
+
+    #loveLetter {
+      font-style: italic;
+      color: #ff5e62;
+    }
+
+    #heart {
+      font-size: 36px;
+      color: #ff5e62;
+    }
+
+    #footer {
+      margin-top: 30px;
+      font-size: 14px;
+      color: #555;
+    }
+
+    #backButton {
+      cursor: pointer;
+      color: #555;
+      text-decoration: underline;
+      margin-top: 20px;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <div id="container">
+    <h1>哈囉 Jmin</h1>
+    <p id="loveLetter">今天在這裡我想對你說。</p>
+    <p>我不太會說一些感人肺腑的話語，也不一定是個完美的人，不過我還是覺得有你在身邊我會比較快樂XD</p>
+    <p>我只想說</p>
+    <p id="loveLetter">願不願意做我的女朋友?</p>
+    <p>社死現場 開發者，<br>建名</p>
+    <p id="heart">❤️</p>
+    <div id="backButton" onclick="goBack()">我收到了，但我還是想再玩一次</div>
+  </div>
+  <div id="footer">© 2023 JM資訊股份有限公司</div>
+
+  <script>
+    function goBack() {
+      window.location.href = 'index.html'; // 指定返回到 index.html
+    }
+  </script>
+</body>
+</html>
